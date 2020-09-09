@@ -6,12 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name: String = 'crash-course-angular';
-  count: number = 0;
+  title: String = 'crash-course-angular';
 
   constructor(){}
-
-  changeName() {
-    this.name = `Jose - ${++this.count}`;
-  }
 }
